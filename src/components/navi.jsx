@@ -3,10 +3,14 @@ import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 
 const Ul = styled.ul`
-display: flex;
+
+
 list-style: none;
 justify-content: space-evenly;
-margin-left: -2.4em; 
+margin-left: -2.4em;
+@media(min-width: 768px) {
+    display: flex;
+  } 
 `
 
 
