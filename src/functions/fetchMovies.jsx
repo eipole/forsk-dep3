@@ -1,5 +1,5 @@
 async function fetchMovies(otsing) {
-    const url = `http://www.omdbapi.com/?s=${otsing}&apikey=${process.env.REACT_APP_MOVIES_API_KEY}`
+    const url = `https://www.omdbapi.com/?s=${otsing}&apikey=${process.env.REACT_APP_MOVIES_API_KEY}`
     try {
         const res = await fetch(url)
         const data = await res.json()
