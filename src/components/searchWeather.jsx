@@ -18,7 +18,7 @@ useEffect(()=>{
 weatherFetch(setIlm)
 },[])
 
-const cloud = ilm.includes("clouds", "cloudy")
+const cloud = ilm.includes("clouds", "cloudy", "rain")
     return (
         <div>
             <WeatherWord>
