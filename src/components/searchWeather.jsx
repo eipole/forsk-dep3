@@ -18,11 +18,12 @@ useEffect(()=>{
 weatherFetch(setIlm)
 },[])
 
-const cloud = ilm.includes("clouds", "cloudy", "rain")
+const cloud =   ilm.includes("clouds") || ilm.includes("cloudy") || ilm.includes("rain")
     return (
         <div>
             <WeatherWord>
-            Its {ilm} <WeatherColor cloud={cloud} > today</WeatherColor>, perfect to watch som movies </WeatherWord>
+            Its {ilm} <WeatherColor cloud={cloud} > today</WeatherColor>, perfect to watch som movies 
+            </WeatherWord>
         </div>
     )
 }
