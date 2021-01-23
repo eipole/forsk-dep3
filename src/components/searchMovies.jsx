@@ -11,6 +11,8 @@ const OtsingDiv = styled("form")`
 `
 const StyledInput=styled("input")`
     padding: 1em 0;
+    border-radius: 6px;
+
 `
 
 function SearchMovies({ searchText, setSearchText, setMovie }) {

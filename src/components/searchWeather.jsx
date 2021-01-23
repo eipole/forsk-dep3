@@ -5,9 +5,7 @@ import styled from 'styled-components'
 
 const WeatherWord = styled.p`
 font-size: ${props=> props.theme.fontSizes.big};
-background-color: ${props=>props.theme.colors.helekollane };
-
-`
+ `
  const WeatherColor = styled.span`
     color:  ${props=>(props.cloud ? props.theme.colors.sinine : props.theme.colors.kollane) };
 ` 

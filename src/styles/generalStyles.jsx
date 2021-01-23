@@ -17,13 +17,17 @@ export const Button = styled.button`
 
 export const Container = styled.div`
   margin: 0 auto;
+@media(min-width: 600px){
   display: grid;
   grid-template-columns: minmax(1em, 1fr) minmax(0px, 70%) minmax(1em, 1fr);
   & > *{
     grid-column: 2 / 3;
   }
+}
 `
 export const Title = styled.h1`
+padding: 1em;
+margin-top: 0;
   font-size: 4.4rem;
   text-align: center;
   background-image: url(${pilt});

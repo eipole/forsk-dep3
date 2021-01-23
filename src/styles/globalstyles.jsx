@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     font-size: 1rem;
     line-height: 1.6;
-    background-color: rgb(244,244,244);
+    background-color:#e6e5d8;
 
 /*     display: flex;
     justify-content: center; */

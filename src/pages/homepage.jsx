@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Navigation from '../components/navi'
 import SearchWeather from '../components/searchWeather'
 
-const See = styled.h1`
+const StyledH1 = styled.h1`
 margin-bottom: 1em;
 font-size: 2rem;
 text-align: center;
@@ -16,7 +16,7 @@ function HomePage(){
     <div>
         <Layout>
             <Navigation />
-            <See>Home Page</See>
+            <StyledH1>Hello!</StyledH1>
             <SearchWeather />
         </Layout>
     </div>
